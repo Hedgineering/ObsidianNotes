@@ -1,5 +1,8 @@
 # Counting Principles
 
+Prereqs:
+- [[Probability Axioms]]
+
 ---
 
 # Addition Rule
@@ -188,3 +191,19 @@ P(n,r)=r!{n \choose r}
 $$
 
 because each group of $r$ selected objects can be arranged in $r!$ different orders.
+
+# Multinomial Coefficients in Combinatorics
+[How to count combinations if you have multiple of the same kind of item](https://youtu.be/3aacb7OVb44)
+
+Suppose you have 2 red balls, 3 cyan balls, and 4 purple balls, and you wanted to find the number of distinct permutations of those. BUT if you interchange the position of two balls of the same color, it counts as the same permutation.
+
+E.g. `[red, red, cyan, cyan, cyan, purple, purple, purple, purple]`
+If you swap index 0 and 1, the result is still the same permutation as the original.
+
+$$
+\frac{(2 + 3 + 4)!}{2!3!4!}
+$$
+The factorials in the denominator indicate the permutations of multiple balls of the same color/kind. The numerator indicates the total amount of ways you can arrange the balls.
+
+Related:
+[[Common Permutation Combination Identities]]
