@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/test.md",
+                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/Numerical Differential Equation Example.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "Numerical Differential Equation Example"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/test.md",
+                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/Numerical Differential Equation Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for test"
+              "title": "Backlinks for Numerical Differential Equation Example"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/test.md",
+                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/Numerical Differential Equation Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from test"
+              "title": "Outgoing links from Numerical Differential Equation Example"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/test.md",
+                "file": "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/Numerical Differential Equation Example.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of test"
+              "title": "Outline of Numerical Differential Equation Example"
             }
           }
         ]
@@ -180,11 +180,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "659cdbcd78f8ba88",
   "lastOpenFiles": [
-    "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/test.md"
+    "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/test.md",
+    "ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/Numerical Differential Equation Example.md"
   ]
 }
