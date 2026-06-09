@@ -5,7 +5,7 @@ Short term behavior
 
 Usually analyzed via independent replications
 1. Make independent runs (replications) of the simulation, each under identical conditions
-2. Save sample means from each replication, assume the sample mans are i.i.d normal (Central Limit Theorem)
+2. Save sample means from each replication, assume the sample mans are i.i.d normal ([[Central Limit Theorem (CLT)]])
 3. Use classical stats techniques on the **sample means** (avg.s of several replications), not the original observations
 
 ## Steady-State Simulations
@@ -24,6 +24,6 @@ First deal with initialization (start-up) bias (state in beginning of sim is not
 1. Make one long run (as opposed to many shorter reps)
 2. Warm up simulation before collecting data
 3. Chop remaining observations into contiguous batches
-4. Take sample means from each batch, assume they are i.i.d. normal (Central Limit Theorem)
+4. Take sample means from each batch, assume they are i.i.d. normal ([[Central Limit Theorem (CLT)]])
 5. Do Classical Stats on these batch means
 
