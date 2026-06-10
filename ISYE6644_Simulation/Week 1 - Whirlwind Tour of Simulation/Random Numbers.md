@@ -17,6 +17,18 @@ This has a large "Cycle Time" -- it doesn't repeat in sequence for a very long t
 	- $X_i$ is the number generated from step 2
 	- $m$ is the modulus number you chose in step 2 (usually some large prime)
 
+Here's one example:
+
+$$
+\begin{align}
+X_i &= 16807 X_{i-1} \mod{(2^{31} - 1)} \\
+R_i &= \frac{X_i}{2^{31} - 1}
+\end{align}
+$$
+
+Where you must choose some initial seed $X_0$ and $R_i$ is your $i$'th random number.
+
+By the way, $16807 = 7^5$ and $2^{31} - 1$ is a massive prime number.
 ## Exponential Distribution
 
 You can take the outputs of a $\text{Uniform}(0, 1)$ random variable and turn it into an exponential random variable by taking
@@ -34,7 +46,7 @@ $$
 
 For example, if you want to generate a random number between 1 and 8 inclusive, we can choose $n$ to be 8, multiply by $U$ and round up the result.
 
-## Generating Arbitrary Discrete Random Variables
+## Generating Arbitrary Discrete Random Variables (Inverse Transform Method)
 
 Suppose
 
@@ -89,4 +101,28 @@ P(X=-2)=0.25,
 P(X=3)=0.10,
 \qquad
 P(X=4.2)=0.65.
+$$
+
+## Generating Continuous Random Variables (Inverse Transform)
+
+**Theorem**: If $X$ is a continuous random variable with CDF $F(x)$, then the random variable $F(X) \sim Unif(0, 1)$ . If you plug the random variable itself into its own CDF function, the resulting distribution is uniform between 0 and 1.
+
+So if you want to generate values of the random variable $X$, simply set $F(X) = U \sim Unif(0, 1)$ and solve for $X = F^{-1}(U)$.
+
+**Example**:
+Suppose $X \sim Exp(\lambda)$
+
+Then $F(x) = 1-e^{-\lambda x}$ for $x > 0$.
+
+Set $F(X) = 1- e^{-\lambda X} = U$ and solve for $X$.
+
+$$
+\begin{align}
+F(X) = U &= 1- e^{-\lambda X} \\
+e^{-\lambda X} &= 1 - U  \\
+-\lambda X &= ln(1 - U)  \\
+X &= \frac{-1}{\lambda} ln(1 - U)  \\
+X &= \frac{-1}{\lambda} ln(U) \text{ since } 1 - \text{uniform RV} \text{ is also a uniform RV} \\
+X &= \frac{-ln(U)}{\lambda} \sim Exp(\lambda)
+\end{align}
 $$
