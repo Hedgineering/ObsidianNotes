@@ -8,3 +8,4 @@
 3. Add up the areas
 
 $$\int f(x) = \lim_{n \rightarrow \infty}\sum_{i=0}^n \frac{1}{n}f(x_i) \text{ , Where } x_i \sim \text{Uniform}(0, 1) $$
+See more in [[RemoteSync/ISYE6644_Simulation/Week 3 - Hand Simulations and General Simulation Principles/Example Problems/Monte Carlo Integration|Monte Carlo Integration]]
