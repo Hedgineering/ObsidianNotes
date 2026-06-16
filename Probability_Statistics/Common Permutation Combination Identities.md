@@ -69,7 +69,7 @@ $$
 $$
 
 This generates Pascal's Triangle.
-For intuition see [[Pascal's Identity]]
+For intuition see [[Pascals Identity]]
 
 ---
 
