@@ -30,6 +30,13 @@ $$
 - When examples are requested, include fully worked solutions with clear step-by-step calculations.
 - Avoid unnecessary prose outside the code block.
 - Keep everything copy-paste friendly for Obsidian.
+- Include python code snippets where relevant if talking about machine learning models or common stats implementations used for numerical solutions pertaining to a given notes topic
+  
+for these rows, where you use absolute value or pipe symbol in latex, use latex alternatives like \vert or something because the pipe breaks the table rendering on obsidian 
+
+| Ridge (L2) | $$\lambda \sum_j \beta_j^2$$ | Shrinks coefficients toward zero | Multicollinearity, many correlated features | 
+| Lasso (L1) | $$\lambda \sum_j \|\beta_j\|$$ | Shrinks coefficients, can set some exactly to zero | Feature selection |
+
 ```
 
 ### Prompt 2
