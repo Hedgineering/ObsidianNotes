@@ -2,6 +2,8 @@
 
 ## Linear Congruential Generator
 
+You can find a python implementation in [[When is an LCG full period#Python Example]]
+
 This is a deterministic way of generating a random number that seems to come from a uniform distribution $\text{Uniform}(0, 1)$
 
 This has a large "Cycle Time" -- it doesn't repeat in sequence for a very long time if it's hyperparameters are chosen well.

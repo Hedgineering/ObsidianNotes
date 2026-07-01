@@ -1,3 +1,16 @@
+Generally we test some null hypothesis $H_0$ versus some alternative hypothesis $H_1$ . 
+
+We regard $H_0$ as the status quo, and only reject it if we have "ample" evidence against it (innocent until proven guilty) -- 
+
+i.e. "There is such a miniscule probability of $H_0$ being true (below some threshold) that we will reject it in favor of $H_1$ which is much more likely to be the case".
+
+Usually we really want to avoid incorrect rejections of $H_0$ (avoid Type I error ; avoid false positives)
+- **Type I error**: False positive 
+	- reject $H_0$ even though it's true -- $\alpha = P(\text{Reject } H_0 | H_0 \text{ true})$
+- **Type II error**: False negative 
+	- fail to reject $H_0$ even though it's false -- $\beta = P(\text{Accept } H_0 | H_0 \text{ false})$
+
+In the design of the test, we set the **level of significance** which is essentially the probability of making a **Type I error**
 ## Quick Reference Table
 
 | Test | Used For | Null Hypothesis | Common Interpretation |
