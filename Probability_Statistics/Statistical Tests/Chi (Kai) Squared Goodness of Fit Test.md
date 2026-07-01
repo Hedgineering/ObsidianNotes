@@ -555,14 +555,14 @@ For example, the [[RANDU]] generator can pass a simple goodness-of-fit test whil
 
 # Relationship to Other Tests
 
-| Test | Purpose |
-|---|---|
-| [[Chi-Squared Goodness-of-Fit Test]] | Compare observed frequencies to a theoretical distribution |
+| Test                                 | Purpose                                                     |
+| ------------------------------------ | ----------------------------------------------------------- |
+| Chi-Squared Goodness-of-Fit Test     | Compare observed frequencies to a theoretical distribution  |
 | [[Chi-Squared Test of Independence]] | Determine whether two categorical variables are independent |
-| [[Kolmogorov-Smirnov Test]] | Compare continuous distributions without binning |
-| [[Anderson-Darling Test]] | More sensitive in the tails than the KS test |
-| [[Runs Test]] | Detect dependence or non-random ordering |
-| [[Serial Correlation Test]] | Detect dependence between successive observations |
+| [[Kolmogorov-Smirnov Test]]          | Compare continuous distributions without binning            |
+| [[Anderson-Darling Test]]            | More sensitive in the tails than the KS test                |
+| [[Runs Test for Independence (Wald–Wolfowitz Runs Test)]]                        | Detect dependence or non-random ordering                    |
+| [[Serial Correlation Test]]          | Detect dependence between successive observations           |
 
 ---
 
