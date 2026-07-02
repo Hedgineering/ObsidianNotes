@@ -216,7 +216,7 @@ Imagine squeezing the array.
 ### axis=0
 
 ```text
-      ↓ squeeze ↓
+↓ squeeze ↓
 
 F F T F
 F T F F
