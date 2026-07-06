@@ -12,6 +12,7 @@ If you plug the random variable itself into its own CDF function, the resulting 
 
 ## Convolution Method
 
+You can generate Random Variables by summing other Random Variables from other distributions. See [[Convolution Method For Random Variable Generation]]
 ## Acceptance-Rejection Method
 
 ### Proof

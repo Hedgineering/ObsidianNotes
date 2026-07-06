@@ -49,10 +49,10 @@ Setting $a=0, b=1$ recovers the specific case: $\dfrac{(1-0)^2}{12} = \dfrac{1}{
 
 ## Why This Matters (Connection to Convolution)
 
-> [!tip] Application In the [[Convolution Method#Crude "Desert Island" Normal Generator (Convolution + CLT)]] example, summing $n$ i.i.d. $\mathcal{U}(0,1)$ variables gives variance $n \cdot \dfrac{1}{12} = \dfrac{n}{12}$ (variances add for independent RVs). Choosing $n = 12$ makes this variance exactly $1$ — which is _why_ $n=12$ was picked, not because 12 is "large" in any CLT sense.
+> [!tip] Application In the [[Convolution Method For Random Variable Generation#Crude "Desert Island" Normal Generator (Convolution + CLT)]] example, summing $n$ i.i.d. $\mathcal{U}(0,1)$ variables gives variance $n \cdot \dfrac{1}{12} = \dfrac{n}{12}$ (variances add for independent RVs). Choosing $n = 12$ makes this variance exactly $1$ — which is _why_ $n=12$ was picked, not because 12 is "large" in any CLT sense.
 
 ---
 
 ## Related
 
-- [[Convolution Method#Crude "Desert Island" Normal Generator (Convolution + CLT)]]
+- [[Convolution Method For Random Variable Generation#Crude "Desert Island" Normal Generator (Convolution + CLT)]]
