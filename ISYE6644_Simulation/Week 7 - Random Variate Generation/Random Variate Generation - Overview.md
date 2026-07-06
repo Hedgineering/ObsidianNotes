@@ -10,7 +10,6 @@ If you plug the random variable itself into its own CDF function, the resulting 
 
 [[Inverse Transform Theorem]]
 
-
 ## Convolution Method
 
 ## Acceptance-Rejection Method
