@@ -50,7 +50,7 @@ If $X_1, \dots, X_n \overset{iid}{\sim} \text{Exponential}(\lambda)$, then $$Y =
 
 Using the Inverse Transform for each Exponential, $X_i = \dfrac{-1}{\lambda}\ln(U_i)$, so:
 
-$$ Y = \sum_{i=1}^n X_i = \sum_{i=1}^n \left[\frac{-1}{\lambda}\ln(U_i)\right] = \frac{-1}{\lambda}\ln!\left(\prod_{i=1}^n U_i\right) $$
+$$ Y = \sum_{i=1}^n X_i = \sum_{i=1}^n \left[\frac{-1}{\lambda}\ln(U_i)\right] = \frac{-1}{\lambda}\ln\left(\prod_{i=1}^n U_i\right) $$
 
 > [!success] Efficiency Because the sum of logs collapses into the **log of a product**, this only requires computing **one** natural log per realization of $Y$ (after multiplying the $n$ uniforms together) — making it quite efficient computationally, despite still needing $n$ uniform draws.
 
