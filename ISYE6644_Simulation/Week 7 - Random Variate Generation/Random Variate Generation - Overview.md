@@ -37,6 +37,7 @@ It can also be observed that due to the Box-Muller approach being a valid way of
 
 An $n$-order statistic in the Probability/Simulation context is the $n$th largest or smallest value of a collection of iid RV realizations collected.
 
+`Keyword: (min of n iid RVs); Generating min's and max's of iid RV's, e.g. min of iid Exponentials`
 Basically, instead of a process that takes $n$ steps to compute something like the minimum or maximum of $n$ RVs of some given distribution, you can use some clever manipulation to shortcut it to 1 step of an equivalent alternative RV using some algebra and probability theory. 
 
 ## Multivariate Normal Distribution
