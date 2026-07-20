@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISYE6644_Simulation/Week 7 - Random Variate Generation/Convolution Method For Random Variable Generation.md",
+                "file": "ISYE6644_Simulation/Week 7 - Random Variate Generation/Inverse Transform Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Convolution Method For Random Variable Generation"
+              "title": "Inverse Transform Theorem"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "desert island",
+                "query": "weibu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,6 +187,7 @@
   },
   "active": "659cdbcd78f8ba88",
   "lastOpenFiles": [
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Convolution Method For Random Variable Generation.md",
     "Numpy_Notes/Understanding Axis for Numpy Aggregations.md",
     "Software Engineering/Leetcode Notes/Hudson River Trading Problems/2285. Maximum Total Importance of Roads.md",
     "Software Engineering/Leetcode Notes/Hudson River Trading Problems/1566. Detect Pattern of Length M Repeated K or More Times.md",
@@ -210,7 +211,6 @@
     "ISYE6644_Simulation/Week 7 - Random Variate Generation/Empirical Distribution Random Variable Estimation.md",
     "ISYE6644_Simulation/Week 7 - Random Variate Generation/Expectation and Variance of a 01 Uniform RV.md",
     "ISYE6644_Simulation/Week 7 - Random Variate Generation/Discrete Example Acceptance Rejection Poisson RV.md",
-    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Convolution Method For Random Variable Generation.md",
     "ISYE6644_Simulation/Week 7 - Random Variate Generation/Approximation of Inverse Standard Normal INVNORM.md",
     "ISYE6644_Simulation/Week 7 - Random Variate Generation/Acceptance Rejection Method for Random Variable Generation.md",
     "ISYE6644_Simulation/Week 7 - Random Variate Generation",
