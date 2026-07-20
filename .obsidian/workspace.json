@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numpy_Notes/Understanding Axis for Numpy Aggregations.md",
+                "file": "ISYE6644_Simulation/Week 7 - Random Variate Generation/Convolution Method For Random Variable Generation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understanding Axis for Numpy Aggregations"
+              "title": "Convolution Method For Random Variable Generation"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "desert island",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,41 +187,41 @@
   },
   "active": "659cdbcd78f8ba88",
   "lastOpenFiles": [
+    "Numpy_Notes/Understanding Axis for Numpy Aggregations.md",
+    "Software Engineering/Leetcode Notes/Hudson River Trading Problems/2285. Maximum Total Importance of Roads.md",
+    "Software Engineering/Leetcode Notes/Hudson River Trading Problems/1566. Detect Pattern of Length M Repeated K or More Times.md",
+    "Software Engineering/Leetcode Notes/Hudson River Trading Problems/Zoom Coding Interview.md",
+    "Software Engineering/Leetcode Notes/Hudson River Trading Problems/1323. Maximum 69 Number.md",
+    "Software Engineering/Leetcode Notes/Hudson River Trading Problems/1317. Convert Integer to the Sum of Two Non-Zero Integers.md",
+    "Software Engineering/Leetcode Notes/Hudson River Trading Problems",
+    "Software Engineering/Leetcode Notes",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Order Statistics and Other Stuff.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Time Series ARMA and ARP.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Random Variable Generation for Queueing Processes - MM1 and Lindley Recursion.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Non-homogenous Poisson Processes.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Multivariate Normal Random Variable Generation.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Composition of Random Variables.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Brownian Motion.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Box-Muller Standard Normal Random Variable Generation.md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation/Baby Stochastic Process (Markov Chains and Poisson Arrivals).md",
+    "ISYE6644_Simulation/Week 8 - More Random Variate Generation",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Random Variate Generation - Overview.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Inverse Transform Theorem.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Empirical Distribution Random Variable Estimation.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Expectation and Variance of a 01 Uniform RV.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Discrete Example Acceptance Rejection Poisson RV.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Convolution Method For Random Variable Generation.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Approximation of Inverse Standard Normal INVNORM.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation/Acceptance Rejection Method for Random Variable Generation.md",
+    "ISYE6644_Simulation/Week 7 - Random Variate Generation",
     "Numpy_Notes/Ravel Index and Unravel Index.md",
     "Numpy_Notes/Useful Concepts And Patterns.md",
-    "Numpy_Notes/Understanding Axis for Numpy Aggregations.md",
     "Pandas Notes/Date and Time Arithmetic.md",
-    "Probability_Statistics/Statistical Tests/Spectral Test.md",
-    "Probability_Statistics/Statistical Tests/Serial Correlation Test.md",
-    "Probability_Statistics/Statistical Tests/Runs Test for Independence (Wald–Wolfowitz Runs Test).md",
-    "Probability_Statistics/Statistical Tests/Runs Test Above and Below the Mean.md",
-    "Probability_Statistics/Statistical Tests/Runs Test Up and Down for Independence.md",
-    "Probability_Statistics/Statistical Tests/Lag-1 Correlation Test for Serial Correlation aka Autocorrelation.md",
-    "Probability_Statistics/Statistical Tests/Kolmogorov-Smirnov Test.md",
-    "Probability_Statistics/Statistical Tests/Chi-Squared Test of Independence.md",
-    "Probability_Statistics/Statistical Tests/Chi (Kai) Squared Goodness of Fit Test.md",
-    "Probability_Statistics/Statistical Tests/Anderson-Darling Test.md",
     "Probability_Statistics/Statistical Tests",
-    "Probability_Statistics/Normal Distribution Topics/Normal Distribution.md",
-    "Probability_Statistics/Normal Distribution Topics/Normal Distribution Topics.md",
     "Probability_Statistics/Normal Distribution Topics",
-    "Probability_Statistics/Exponential Distribution.md",
-    "Probability_Statistics/Expectation of a Uniform RV.md",
-    "Probability_Statistics/Definition of Variance using Expected Value.md",
-    "Probability_Statistics/Change of Variables for Continuous Random Variables.md",
-    "Probability_Statistics/Actual Meaning of PDF or PMF.md",
-    "ISYE6644_Simulation/Week 6 - Random Number Generation/When is an LCG full period.md",
-    "ISYE6644_Simulation/Week 6 - Random Number Generation/Tausworthe Generator.md",
-    "ISYE6644_Simulation/Week 6 - Random Number Generation/RANDU Linear Congruential Generator (suboptimal).md",
-    "ISYE6644_Simulation/Week 6 - Random Number Generation/Mid-Square Method for Random Numbers (bad-do not use).md",
-    "ISYE6644_Simulation/Week 6 - Random Number Generation/Linear Congruential Generator (LCG).md",
     "ISYE6644_Simulation/Week 6 - Random Number Generation",
     "Pandas Notes",
     "Trading Notes/Business Info/Swaps",
-    "Trading Notes/Business Info/Options",
-    "Trading Notes/Business Info/London Metals Exchange",
-    "Trading Notes/Business Info/Futures",
-    "Trading Notes/Business Info/Forex",
-    "Trading Notes/Business Info/Fixed Income"
+    "Trading Notes/Business Info/Options"
   ]
 }
