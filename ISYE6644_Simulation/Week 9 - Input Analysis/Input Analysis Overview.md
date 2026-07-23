@@ -44,9 +44,22 @@ Mean Squared Error is basically a metric that combines the bias and variance of 
 
 [[Maximum Likelihood Estimators]]
 
+The likelihood of seeing some collection of data can be seen as the product of the independent p.d.f at each realization of each datapoint. This definition of likelihood can be used to search for the parameters that maximize this likelihood probability. Taking the natural log of both sides and setting to zero is a useful trick in direct analytical optimization using MLE.
 ## Method of Moments
 
+[[Method of Moments]]
+
+The $k$-th moment of a random variable is defined as the expectation of a random variable raised to the $k$-th power. You can use this to estimate parameters of the underlying p.d.f. of a sample of data.
 ## Goodness-of-Fit Tests
 
+[[Goodness of Fit Tests]]
+[[Goodness of Fit Tests Exponential Example]]
+[[Goodness of Fit Tests Weibull Example]]
+[[Other Goodness of Fit Tests]]
+
 ## Problematic Scenarios
+
+[[Problem Children in Input Analysis]]
+
+>[!important] You can use Tools > Input Analyzer in Arena to analyze data to figure out what data generating distribution with what parameters a dataset likely comes from. You can use "Fit All" to test all distribution and choose the ones with the best $\chi^2$ or K-S test statistics.
 
